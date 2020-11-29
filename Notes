@@ -1,0 +1,41 @@
+1)Bipartite Graph
+-> Whether a graph contains cycle or not and whether the graph contains cycle of odd length or even length can be checked using a bipartite graph.
+
+-> If adjacent elements has to be different in a graph or matrix or array or anything think of odd even or bipartite.  
+
+2)Binary Search
+-> Binary Search the Answer:- We use binary search to guess the answer of the problem. By guessing means that we will get several “YES” or “NO” feedback or maybe “too high”, “too low”, or “exactly” responses.
+
+3)Divisors of a number
+-> Can be found in O(sqrt(n)) time.
+
+ 
+4)Disjoint Set Union(DSU)
+-> If you want to divide certain group of elements into further groups, think of disjoint set union.
+
+
+5)Comparator
+-> A C++ comparator must be a strict weak ordering. The three properties of a strict weak ordering is asymmetry, irreflexivity, and transitivity.
+ Asymmetry means that if a<b, then b≮a.
+ Irreflexivity means a<a is false.
+ Transitivity means if a<b and b<c then a<c.
+Data must not have a circular relationship. For example in rock-paper-scissors you have scissors > paper, rock > scissors, paper > rock
+
+6)LCM/HCF
+ -> LCM(a,b)*HCF(a,b) = a*b
+
+ -> The Euclidean Algorithm for finding GCD(A,B) is as follows:
+	If A = 0 then GCD(A,B)=B, since the GCD(0,B)=B, and we can stop.  
+	If B = 0 then GCD(A,B)=A, since the GCD(A,0)=A, and we can stop.  
+	Write A in quotient remainder form (A = B⋅Q + R)
+	Find GCD(B,R) using the Euclidean Algorithm since GCD(A,B) = GCD(B,R)
+
+ -> If (x==y) gcd(x,y)=x; if (x>y) gcd(x,y)= gcd(x-y,y); if (x<y) gcd(x,y)= gcd(x,y-x)		
+
+ ->If you want fraction a/b in lowest form divide a and b by HCF(a,b).														   
+
+7)Geometry 
+ ->	If you want to do something with the slope of the line do not store it in double if not necessary. Store a pair {a,b}, If multiple lines have same slope divide a and b by their HCF.
+
+
+8) 
